@@ -118,7 +118,7 @@ dff = df.loc[mask].copy().sort_values('DATE')
 # Summary metrics row
 # -------------------------
 st.title("🛍️ Retail Shop Performance Dashboard")
-st.markdown("*Cash at Hand On First December, 2025: 100,000 UGX*")
+st.markdown("*Cash at Hand On 1st January, 2025: 100,000 UGX*")
 st.markdown("**Summary for selected period**")
 
 total_revenue = dff['SALES'].sum()
